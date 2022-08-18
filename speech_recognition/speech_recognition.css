@@ -1,0 +1,23 @@
+body {
+  font-family: system-ui;
+  color:khaki;
+  background: linear-gradient(to bottom,
+    darken(darkorchid, 15%)
+  );
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color :darkmagenta;
+    background-color: darkorchid;
+    background-image:url("D:/work/mert/yolov5_training/microphone.png") ;
+    padding: 10px 24px;
+  }

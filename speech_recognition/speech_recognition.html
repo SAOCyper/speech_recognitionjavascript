@@ -1,0 +1,40 @@
+<html>
+<head>
+    <style>
+        body {
+        font-family: system-ui;
+        color:khaki;
+        height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        }
+        p {
+        color: navy;
+        text-indent: 30px;
+        padding: 60px 60px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150%;
+        }
+        button {
+        padding: 15px 32px;
+        text-align: center;
+        font-size:medium;
+        background-color:aqua;
+        color :darkmagenta;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeechRecognition</title>
+    <script type="text/javascript" src="speech_recognition.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <p>Click the Button before speaking</p>
+    <button type ="button" onclick="GetSpeech()"><i class="fas fa-microphone"></i></button>
+</body>
+</html>
